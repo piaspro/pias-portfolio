@@ -1,0 +1,74 @@
+.about {
+    background-color: #2b1b50;
+    overflow: hidden;
+}
+
+.color {
+    color: #c70e67;
+    font-size: large;
+}
+
+.aboutMe-text h3, h4, h5 {
+    color: white;
+}
+
+.portfolio-img img {
+    animation: imgAnimate 2s ease;
+}
+
+.aboutMe-text {
+    animation: text 2s ease;
+}
+
+@keyframes imgAnimate {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateX(250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.box {
+    border-left: 5px solid;
+    border-image: linear-gradient( to bottom, #c70e67, rgba(0, 0, 0, 0)) 1 100%;
+    transition: all 0.3s ease;
+    animation: info 2s ease;
+}
+
+@keyframes info {
+    0% {
+        opacity: 0;
+        transform: translateY(250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+.box:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.btn-outline-danger:hover {
+    background-color: #c70e67 !important;
+}

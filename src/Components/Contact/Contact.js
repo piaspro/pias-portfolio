@@ -14,15 +14,15 @@ const Contact = () => {
                 <div className=" d-flex justify-content-center pt-3 ">
                     <Form>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label>Your Name</Form.Label>
                             <Form.Control type="text" placeholder="Your Name" />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Label>Your Email </Form.Label>
+                            <Form.Control type="email" placeholder="Your email" />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label>Say Something</Form.Label>
                             <Form.Control as="textarea" rows={3} placeholder="Your Text Here..." />
                         </Form.Group>
                         <Button variant="outline-danger" type="submit">

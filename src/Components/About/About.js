@@ -2,11 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 import Header from '../Header/Header';
-import me from '../../images/pias.png';
+import me from '../../images/pias 1.png';
 import './About.css'
 
 
 const About = () => {
+    const resume ="https://drive.google.com/u/1/uc?id=1jYx6BIMUPebZH-RikyOvRtUMiNc9oA1O&export=download"
+
     return (
         <div className="about">
             <Header></Header>
@@ -23,7 +25,9 @@ const About = () => {
                             <h3>I'm <span className="colorText">Golam Rahman</span></h3>
                             <h5>I'm a Simple, Honest, Soft Spoken & Moderate Educated. A Hardworking Person, Passionate about new technology.
                                 Always interested in learning new things. </h5> <br />
-                            <Button variant="outline-danger" className="text-white">Download CV</Button>
+                            <a href={resume} className="p-3">
+                                <Button variant="outline-danger" className="text-white">Download CV</Button>
+                            </a>
                         </div>
                     </Col>
                 </Row>

@@ -54,10 +54,10 @@ const Blog = () => {
         <div className="about">
             <Header></Header>
             <Container className="mt-5">
-                <h3 className="text-center text-white">Some of My Blogs</h3>
+                <h3 className="text-center text-white">Some Of My Blogs</h3>
                 <Row className="pb-5">
                     {
-                        blogs.map(blog => <Col className="p-3">
+                        blogs.map(blog => <Col className="p-3 d-flex justify-content-center zoom">
                             <Card style={{ width: '18rem' }}>
                                 <div>
                                     <Card.Img variant="top" src={blog.img} />

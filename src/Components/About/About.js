@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 import Header from '../Header/Header';
-import me from '../../images/pias 1.png';
+import me from '../../images/pias.png';
 import './About.css'
 
 
@@ -26,7 +26,7 @@ const About = () => {
                             <h5>I'm a Simple, Honest, Soft Spoken & Moderate Educated. A Hardworking Person, Passionate about new technology.
                                 Always interested in learning new things. </h5> <br />
                             <a href={resume} className="p-3">
-                                <Button variant="outline-danger" className="text-white">Download CV</Button>
+                                <Button variant="outline-danger" className="text-white">Get Resume</Button>
                             </a>
                         </div>
                     </Col>
@@ -43,10 +43,10 @@ const About = () => {
                     <Col sm={4}>
                         <div className="box p-3">
                             <h4>Skills</h4>
-                            <h5>Web: <span className="color"> Html, Css, Bootstrap, Javascript, ReactJs,  REST Api, Git, Firebase</span></h5>
-                            <h5>Database: <span className="color">Nodejs, Express, MongoDB</span></h5>
-                            <h5>Familiar With: <span className="color">AngularJs,TypeScript, GraphQL</span></h5>
-                            <h5>Tools: <span className="color">VS Code, Github, Chrome Dev</span></h5>
+                            <h6>Web: <span className="color"> Html, Css, Bootstrap, Javascript, ReactJs,  REST Api, Firebase</span></h6>
+                            <h6>Database: <span className="color">Nodejs, Express, MongoDB</span></h6>
+                            <h6>Familiar With: <span className="color">AngularJs,Redux, Sass,TypeScript, GraphQ, LOOP, Data Structure, PSD to HTML</span></h6>
+                            <h6>Tools: <span className="color">VS Code, Github, Chrome Dev</span></h6>
                         </div>
                     </Col>
                     <Col sm={4}>

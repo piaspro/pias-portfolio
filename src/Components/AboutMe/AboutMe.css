@@ -67,8 +67,16 @@
     animation: textAnimate 2s ease;
 }
 
-.portfolio img {
+.portfolio img{
+    border: 2px solid #c70e67;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.6s ease;
     animation: animate 2s ease;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
 }
 
 @keyframes animate {

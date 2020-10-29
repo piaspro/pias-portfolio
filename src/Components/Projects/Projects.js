@@ -5,11 +5,9 @@ import creative from '../../images/Creative Agency.png'
 import Volunteer from '../../images/Voluntier Network.png'
 import travel from '../../images/Travel Guru.png'
 import doctor from '../../images/Doctors Portal.png'
-import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
-import Header from '../Header/Header';
 import './Projects.css'
 
 

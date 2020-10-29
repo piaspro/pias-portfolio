@@ -8,12 +8,17 @@
     font-size: large;
 }
 
-.aboutMe-text h3, h4, h5 {
+.aboutMe-text h3, h4, h5, h6 {
     color: white;
 }
 
 .portfolio-img img {
+    cursor: pointer;
+    transition: all 0.6s ease;
     animation: imgAnimate 2s ease;
+}
+.portfolio-img img:hover {
+    transform: scale(1.05);
 }
 
 .aboutMe-text {

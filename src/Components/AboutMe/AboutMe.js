@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
-import me from '../../images/pias.png'
+import me from '../../images/pias large.jpg'
 import './AboutMe.css'
 
 const AboutMe = () => {

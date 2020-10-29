@@ -1,6 +1,15 @@
-label{
+label {
     color: white !important;
 }
+
 form {
     width: 360px;
+}
+
+.modal-title {
+    color: #e9348b;
+}
+
+.color-text {
+    color: #e9348b;
 }

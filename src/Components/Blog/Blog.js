@@ -7,42 +7,42 @@ import Header from '../Header/Header';
 const blogs = [
     {
         id: 0,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
     },
     {
         id: 1,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
     },
     {
         id: 2,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
     },
     {
         id: 3,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
     },
     {
         id: 4,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
     },
     {
         id: 5,
-        title: "Hello World!",
+        title: "Coming soon..",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
         link: "https://github.com/piaspro",
         img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"

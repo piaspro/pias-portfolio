@@ -5,6 +5,8 @@ import creative from '../../images/Creative Agency.png'
 import Volunteer from '../../images/Voluntier Network.png'
 import travel from '../../images/Travel Guru.png'
 import doctor from '../../images/Doctors Portal.png'
+import online from '../../images/online learning.png'
+import weather from '../../images/weather app.png'
 import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
@@ -15,7 +17,7 @@ const projects = [
     {
         id: 0,
         title: "Creative Agency",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
+        description: "A Full Stack Service Provider app. Where User Purchase services, See their services in the dashboard & give feedback. An admin have control over everything using dashboard",
         link: "https://github.com/piaspro/creative-agency",
         liveLink: "https://creative-agency-a1c8c.web.app/",
         img: `${creative}`
@@ -23,7 +25,7 @@ const projects = [
     {
         id: 1,
         title: "Volunteer Network",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
+        description: "A FullStack Charity Organizations app. An User Become part of it by registration, and see all-volunteer services they are registered to. User can also cancel them if they want",
         link: "https://github.com/piaspro/volunteer-network",
         liveLink: "https://volunteer-network-f60dc.web.app/",
         img: `${Volunteer}`
@@ -31,7 +33,7 @@ const projects = [
     {
         id: 2,
         title: "Travel Guru",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
+        description: "Select your desire location and see brief info. Book your service with selected date. After booking you can see google map location and available hotels",
         link: "https://github.com/piaspro/assignment-9-travel-guru",
         liveLink: "https://assignment-9-red-onion.web.app/",
         img: `${travel}`
@@ -39,26 +41,26 @@ const projects = [
     {
         id: 3,
         title: "Doctors Portal",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
-        link: "https://github.com/piaspro",
-        liveLink: "https://creative-agency-a1c8c.web.app/",
+        description: "A full-stack app where you can pick the date and time and fix an appointment with your doctor & More..",
+        link: "https://github.com/piaspro/doctors-portal",
+        liveLink: "https://github.com/piaspro/doctors-portal",
         img: `${doctor}`
     },
     {
         id: 4,
-        title: "Hello World!",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
-        link: "https://github.com/piaspro",
-        liveLink: "https://creative-agency-a1c8c.web.app/",
-        img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
+        title: "Online Learning",
+        description: "Created using react app where you can enroll to different courses & can see how many courses you enrolled and the total cost",
+        link: "https://github.com/piaspro/online-learning",
+        liveLink: "https://online-course-learning.netlify.app/",
+        img: `${online}`
     },
     {
         id: 5,
-        title: "Hello World!",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis animi id autem officiis odio soluta.",
-        link: "https://github.com/piaspro",
-        liveLink: "https://creative-agency-a1c8c.web.app/",
-        img: "https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
+        title: "Weather App Live",
+        description: "A React app that uses Rest api to display weather of the different cities",
+        link: "https://https://github.com/piaspro/weather-app",
+        liveLink: "https://piaspro.github.io/weather-app/",
+        img: `${weather}`
     }
 ]
 const Projects = () => {

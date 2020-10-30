@@ -22,6 +22,7 @@ const Contact = () => {
         emailjs.sendForm('gmail', 'gmail_template', e.target, 'user_9d6edsL74x1aLb6MyPZZZ')
             .then((result) => {
                 if (result.text == "OK") {
+                    handleShow();
                     console.log("success")
                 };
             }, (error) => {
@@ -39,17 +40,17 @@ const Contact = () => {
                     <Form onSubmit={sendEmail}>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Your Name</Form.Label>
-                            <Form.Control type="text" placeholder="Your Name" name="name" />
+                            <Form.Control type="text" placeholder="Your Name" name="name" required />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Your Email </Form.Label>
-                            <Form.Control type="email" placeholder="Your email" name="email" />
+                            <Form.Control type="email" placeholder="Your email" name="email" required />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Say Something</Form.Label>
-                            <Form.Control as="textarea" rows={3} placeholder="Your Text Here..." name="message" />
+                            <Form.Control as="textarea" rows={3} placeholder="Your Text Here..." name="message" required />
                         </Form.Group>
-                        <Button variant="outline-danger" type="submit" onClick={handleShow}>
+                        <Button variant="outline-danger" type="submit">
                             Submit
                     </Button>
                     </Form>

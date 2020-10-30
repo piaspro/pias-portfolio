@@ -4,12 +4,15 @@
 }
 
 .color {
-    color: #c70e67;
+    color: white;
     font-size: large;
 }
 
-.aboutMe-text h3, h4, h5, h6 {
-    color: white;
+.aboutMe-text h3 {
+    color:white;
+}
+.box h3, h4, h5, h6 {
+    color:#c70e67;
 }
 
 .portfolio-img img {

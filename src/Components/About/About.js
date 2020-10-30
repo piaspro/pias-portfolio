@@ -14,16 +14,16 @@ const About = () => {
             <Header></Header>
             <Container className="mt-5">
                 <Row>
-                    <Col className="mb-3">
+                    <Col className="mb-3" sm={6}>
                         <div className="d-flex justify-content-center portfolio-img">
                             <img height="300px" src={me} alt="..." />
                         </div>
                     </Col>
-                    <Col className="d-flex align-items-center mb-3">
+                    <Col className="d-flex align-items-center mb-3" sm={6}>
                         <div className="aboutMe-text">
                             <h3>Hello,</h3>
                             <h3>I'm <span className="colorText">Golam Rahman</span></h3>
-                            <h5>I'm a Simple, Honest, Soft Spoken & Moderate Educated. A Hardworking Person, Passionate about new technology.
+                            <h5 className="color">I'm a Simple, Honest, Soft Spoken & Moderate Educated. A Hardworking Person, Passionate about new technology.
                                 Always interested in learning new things. </h5> <br />
                             <a href={resume} className="p-3">
                                 <Button variant="outline-danger" className="text-white">Get Resume</Button>

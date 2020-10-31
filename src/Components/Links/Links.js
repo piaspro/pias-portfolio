@@ -12,10 +12,8 @@ const Links = () => {
                 <Col className="links text-center pt-5">
                         <a href="https://github.com/piaspro" className="p-3"><FontAwesomeIcon icon={faGithubSquare} size="2x" /></a>
                         <a href="https://www.linkedin.com/in/golam-rahman/" className="p-3"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-                        <a href="https://web.facebook.com/jugantori" className="p-3"><FontAwesomeIcon icon={faFacebookSquare} size="2x" /></a>
                         <a href="https://500px.com/p/piasrahman?" className="p-3"><FontAwesomeIcon icon={fa500px} size="2x" /></a>
                         <a href="https://www.flickr.com/photos/jugantori/" className="p-3"><FontAwesomeIcon icon={faFlickr} size="2x" /></a>
-                        <a href="https://www.youtube.com/channel/UCirsujJyRcO05BQSERL-2iw?view_as=subscriber" className="p-3"><FontAwesomeIcon icon={faYoutubeSquare} size="2x" /></a>
                         <a href="mailto:{golamrahman09@gmail.com}" className="p-3"><FontAwesomeIcon icon={faEnvelopeSquare} size="2x" /></a>
                 </Col>
             </Row>

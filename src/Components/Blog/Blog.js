@@ -66,7 +66,7 @@ const Blog = () => {
                                     <Card.Body>
                                         <Card.Title>{blog.title}</Card.Title>
                                         <Card.Text>{blog.description}</Card.Text>
-                                        <a href={blog.link}><Button variant="outline-danger">Read More</Button></a>
+                                        <a href={blog.link}><Button variant="outline-primary" className="colorText">Read More</Button></a>
                                     </Card.Body>
                                 </div>
                             </Card>

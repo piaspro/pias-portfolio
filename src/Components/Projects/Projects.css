@@ -35,20 +35,20 @@
 }
 
 .content h3 {
-    color: #e9348b;
+    color: #2ca4b4;
 }
 
 .content p {
-    color: #e9348b;
+    color: #2ca4b4;
     font-weight: 500;
 }
 
 .link-repo a {
-    color: #e9348b;
+    color: #2ca4b4;
 }
 
 .link-repo a:hover {
-    color: #2b1b50;
+    color: #113b41;
 }
 
 .zoom {

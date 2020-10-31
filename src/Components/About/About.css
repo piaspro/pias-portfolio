@@ -1,5 +1,5 @@
 .about {
-    background-color: #2b1b50;
+    background-color: #282c34;
     overflow: hidden;
 }
 
@@ -9,10 +9,24 @@
 }
 
 .aboutMe-text h3 {
-    color:white;
+    color: white;
 }
-.box h3, h4, h5, h6 {
-    color:#c70e67;
+
+.box h4 {
+    color: white;
+    text-decoration: underline;
+}
+.box h3, h5 {
+    color: #2ca4b4;
+}
+
+.box p, h6 {
+    color: white;
+}
+
+.box h6 {
+    font-size: smaller;
+    font-weight: small;
 }
 
 .portfolio-img img {
@@ -20,6 +34,7 @@
     transition: all 0.6s ease;
     animation: imgAnimate 2s ease;
 }
+
 .portfolio-img img:hover {
     transform: scale(1.05);
 }
@@ -52,7 +67,7 @@
 
 .box {
     border-left: 5px solid;
-    border-image: linear-gradient( to bottom, #c70e67, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient( to bottom, #2ca4b4, rgba(0, 0, 0, 0)) 1 100%;
     transition: all 0.3s ease;
     animation: info 2s ease;
 }
@@ -68,15 +83,10 @@
     }
 }
 
-.box:hover {
-    -ms-transform: scale(1.05);
-    /* IE 9 */
-    -webkit-transform: scale(1.05);
-    /* Safari 3-8 */
-    transform: scale(1.05);
-    cursor: pointer;
+.btn-outline-primary {
+    border-color: #2ca4b4 !important;
 }
 
-.btn-outline-danger:hover {
-    background-color: #c70e67 !important;
+.btn-outline-primary:hover {
+    background-color: #2ca4b4 !important;
 }

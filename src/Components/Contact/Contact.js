@@ -50,7 +50,7 @@ const Contact = () => {
                             <Form.Label>Say Something</Form.Label>
                             <Form.Control as="textarea" rows={3} placeholder="Your Text Here..." name="message" required />
                         </Form.Group>
-                        <Button variant="outline-danger" type="submit">
+                        <Button variant="outline-primary" className="text-white" type="submit">
                             Submit
                     </Button>
                     </Form>

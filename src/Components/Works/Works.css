@@ -1,3 +1,8 @@
-#photos{
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Xanh+Mono&display=swap');
+.newText {
+    font-family: 'Cairo';
+}
+
+#photos {
     display: none;
 }

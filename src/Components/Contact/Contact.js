@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="about">
             <Header></Header>
             <Container>
-                <h1 className="text-white text-center mt-3">Contact Me</h1>
+                <h1 className="text-center mt-3 newText colorText">Contact Me</h1>
                 <div className=" d-flex justify-content-center pt-3 ">
                     <Form onSubmit={sendEmail}>
                         <Form.Group controlId="formBasicEmail">

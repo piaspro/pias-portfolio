@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Fondamento&family=Xanh+Mono&display=swap');
 .id-brand {
     color: lavender !important;
     font-size: 30px !important;
@@ -21,6 +22,7 @@
 
 .nav-link {
     position: relative;
+    font-family: 'Fondamento';
 }
 
 .nav-link:after {

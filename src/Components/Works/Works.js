@@ -32,7 +32,7 @@ const Works = () => {
     return (
         <div className="about">
             <Header></Header>
-            <Container className="mt-5">
+            <Container className="mt-5 newText">
                 <h3 className="text-center text-white">My Recent Works</h3>
                 <div className="py-3 d-flex justify-content-center">
                     <Button variant="outline-primary" className="text-white m-2" onClick={(value) => displayWeb(value)} >Web Projects</Button>

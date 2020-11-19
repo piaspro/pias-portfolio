@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Xanh+Mono&display=swap');
 @media only screen and (min-width: 1024px) {
     .links {
         display: flex !important;
@@ -18,10 +19,12 @@
 
 .copyright p {
     color: white;
+    font-family: 'Cairo';
 }
 
 .copyright-name {
     color: #2ca4b4;
+    font-family: 'Cairo';
 }
 
 @keyframes icon {

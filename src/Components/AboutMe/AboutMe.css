@@ -1,9 +1,7 @@
-.about h1 {
-    color: #2ca4b4 !important;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 .aboutMe h2 {
     color: white;
+    font-family: 'Alatsi';
 }
 
 .colorText {
@@ -13,6 +11,7 @@
 .Typewriter {
     color: white;
     font-size: 30px;
+    font-family: 'Alatsi';
 }
 
 @media only screen and (max-width: 280px) {
@@ -67,7 +66,7 @@
     animation: textAnimate 2s ease;
 }
 
-.portfolio img{
+.portfolio img {
     border: 2px solid #2ca4b4;
     border-radius: 10px;
     cursor: pointer;

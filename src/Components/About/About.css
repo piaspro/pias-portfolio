@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Xanh+Mono&display=swap');
 .about {
     background-color: #282c34;
     overflow: hidden;
@@ -6,27 +7,34 @@
 .color {
     color: white;
     font-size: large;
+    font-family: 'Cairo';
 }
 
 .aboutMe-text h3 {
     color: white;
+    font-family: 'Cairo';
 }
 
 .box h4 {
     color: white;
     text-decoration: underline;
+    font-family: 'Cairo';
 }
+
 .box h3, h5 {
     color: #2ca4b4;
+    font-family: 'Cairo';
 }
 
 .box p, h6 {
     color: white;
+    font-family: 'Cairo';
 }
 
 .box h6 {
     font-size: smaller;
     font-weight: small;
+    font-family: 'Cairo';
 }
 
 .portfolio-img img {
@@ -89,4 +97,5 @@
 
 .btn-outline-primary:hover {
     background-color: #2ca4b4 !important;
+    color: white;
 }

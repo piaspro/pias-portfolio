@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
 import Header from '../Header/Header';
+import './Blog.css'
 
 const blogs = [
     {
@@ -53,7 +53,7 @@ const Blog = () => {
                                             <div class="card-body">
                                                 <h5 class="card-title">{blog.title}</h5>
                                                 <p class="card-text">{blog.description}</p>
-                                                <a href={blog.link} className="p-3"><Button variant="primary">Read More</Button></a>
+                                                <a href={blog.link} className="p-3"><Button variant="outline-success">Read More</Button></a>
                                             </div>
                                         </div>
                                     </div>
